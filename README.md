@@ -14,12 +14,10 @@ This repository contains a dataset of **Sukkari Dates**, a popular variety of da
 - [Contributing](#contributing)
 
 ## Overview
-
-The Sukkari Dates dataset includes high-quality data points and images related to this specific type of date. It can be used for tasks such as:
-
-- Classification of date varieties.
-- Analyzing the physical properties of dates.
-- Building machine learning models for quality analysis.
+We present our efforts to construct an open source dataset of Sukkari dates that are sorted
+and graded based on market standards. We chose Sukkari dates because of the complexity of their grading
+criteria and their widespread availability. This dataset comprises 14,000 images, each sorted
+into one of five categories.
 
 ## Dataset Structure
 
