@@ -25,7 +25,6 @@ The dataset is organized as follows:
 
 ### Raw Dataset:
 
-Sure! Here’s a rewritten version of your description:
 
 The raw dataset contains all the data collected during our data collection runs, without any preprocessing or cleaning steps applied. Each folder in the dataset is divided into two subfolders: a segmentation data folder and a metadata folder.
 
