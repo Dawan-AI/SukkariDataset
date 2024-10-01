@@ -24,10 +24,20 @@ into one of five categories.
 The dataset is organized as follows:
 
 ### Raw Dataset:
-The rew dataset consists of all data collected during our data collection runs. There is no preprocessing or any cleaning steps during collection. 
-each folder in the dataset consists of segmentation data and meta data folders. 
-segmentatoin data folder contains a list of images saved with DateId_ImageType.png. date id is an integer to represent date captured. Image type could be either BGR, NIR900, NIR970, or Mask. 
-the other folder is meta data folder which contains weight information, frame numbers information, and calibration files. 
+
+Sure! Here’s a rewritten version of your description:
+
+The raw dataset contains all the data collected during our data collection runs, without any preprocessing or cleaning steps applied. Each folder in the dataset is divided into two subfolders: a segmentation data folder and a metadata folder.
+
+- The segmentation data folder includes a series of images saved with the format DateId_ImageType.png. The DateId is an integer representing the date the data was captured, while the ImageType specifies the image modality, which could be one of the following:
+  - BGR (color image)
+  - NIR900 (near-infrared at 900 nm)
+  - NIR970 (near-infrared at 970 nm)
+  - Mask (segmentation mask)
+- The metadata folder contains additional information, including:
+  - Weight data
+  - Frame numbers
+  - Calibration files 
 
 the raw dataset structure is as follows: 
 - Label:
