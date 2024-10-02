@@ -9,9 +9,7 @@ This repository contains a dataset of **Sukkari Dates**, a popular variety of da
 - [Overview](#overview)
 - [Dataset Structure](#dataset-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
 
 ## Overview
 We present our efforts to construct an open source dataset of Sukkari dates that are sorted
@@ -26,9 +24,13 @@ The dataset is organized as follows:
 ### Raw Dataset:
 
 
-The raw dataset contains all the data collected during our data collection runs, without any preprocessing or cleaning steps applied. Each folder in the dataset is divided into two subfolders: a segmentation data folder and a metadata folder.
+The raw dataset contains all the data collected during our data collection runs,
+without any preprocessing or cleaning steps applied. Each folder in the dataset is divided into two subfolders: 
+a segmentation data folder and a metadata folder.
 
-- The segmentation data folder includes a series of images saved with the format DateId_ImageType.png. The DateId is an integer representing the date the data was captured, while the ImageType specifies the image modality, which could be one of the following:
+- The segmentation data folder includes a series of images saved with the format DateId_ImageType.png.
+The DateId is an integer representing the date that was captured, while the ImageType specifies the image modality, 
+which could be one of the following:
   - BGR (color image)
   - NIR900 (near-infrared at 900 nm)
   - NIR970 (near-infrared at 970 nm)
@@ -41,7 +43,7 @@ The raw dataset contains all the data collected during our data collection runs,
 the raw dataset structure is as follows: 
 - Label:
   - run_x:
-    - Data: 
+    - Segmentation_Data: 
       - ID_RGB.png 
       - ID_NIR900.png 
       - ID_NIR970.png 
@@ -57,36 +59,28 @@ the raw dataset structure is as follows:
 The clean dataset consist of date images that have been cleaned and preprocessed. 
 The date images are ready to be consumed by different AI models and ready for training. 
 - train
-  - Mufattal
-    - mufattal_001.jpg 
-  - Qisher
-    - qisher_001.jpg
-  - Rutab
-    - rutab_001.jpg)
-  - Galaxy
-    - galaxy_001.jpg
-  - Nagad
-    - nagad_001.jpg)
+  - label
+    - label_001.jpg 
+    - label_002.jpg
+    - ...
 - val
-  - Mufattal
-    - mufattal_003.jpg
-  - Qisher
-    - qisher_003.jpg
-  - Rutab
-    - rutab_003.jpg
-  - Galaxy
-    - galaxy_003.jpg
-  - Nagad
-    - nagad_003.jpg
+  - label
+    - label_001.jpg 
+    - label_002.jpg
+    - ...
 - test
-  - Mufattal
-    - mufattal_004.jpg
-  - Qisher
-    - qisher_004.jpg)
-  - Rutab
-    - rutab_004.jpg
-  - Galaxy
-    - galaxy_004.jpg
-  - Nagad
-    - nagad_004.jpg)
-- ....
+  - label
+    - label_001.jpg 
+    - label_002.jpg
+    - ...
+
+## Installation
+The dataset is hosted on OneDrive and is publicly accessible. It consists of two main folders: raw_dataset, 
+which contains all the collected runs, and clean_dataset.zip, a zipped folder that includes the cleaned images 
+along with their labels
+
+-  dataset link : https://1drv.ms/f/s!Ajkda3liMT8ykeAPrZTHnwKp13D2JQ?e=R8YOhs
+
+
+## License 
+
