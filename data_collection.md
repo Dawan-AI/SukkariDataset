@@ -68,10 +68,10 @@ the dataset for classification purposes. The cleaning steps included:
     the data. This step ensured that the focus remained on the date,
     reducing the data needed for memory. 
 <p align="center">
-  <img src="assets/images/mask_0014_box.png" width="150" text="Mufattal">
-  <img src="assets/images/bgrimg_0014_box.png" width="150" text="Qisher">
-  <img src="assets/images/CR_DateImage_bgrimg_0014.png" width="150" text="Rutab">
-  <img src="assets/images/WB_DateImage_bgrimg_0014.png" width="150" text="Galaxy">
+  <img src="assets/images/mask_0014_box.png" width="150" text="">
+  <img src="assets/images/bgrimg_0014_box.png" width="150" text="">
+  <img src="assets/images/CR_DateImage_bgrimg_0014.png" width="150" text="">
+  <img src="assets/images/WB_DateImage_bgrimg_0014.png" width="150" text="">
 </p>
 <div align="center">
     Figure 5
@@ -105,11 +105,11 @@ the dataset for classification purposes. The cleaning steps included:
 
 
 <p align="center">
-  <img src="assets/images/clean_1.png" width="150" text="Mufattal">
-  <img src="assets/images/clean_2.png" width="150" text="Qisher">
-  <img src="assets/images/clean_3.png" width="150" text="Rutab">
-  <img src="assets/images/clean_4.png" width="150" text="Galaxy">
-  <img src="assets/images/clean_5.png" width="150" text="Nagad">
+  <img src="assets/images/clean_1.png" width="150" text="">
+  <img src="assets/images/clean_2.png" width="150" text="">
+  <img src="assets/images/clean_3.png" width="150" text="">
+  <img src="assets/images/clean_4.png" width="150" text="">
+  <img src="assets/images/clean_5.png" width="150" text="">
 </p>
 <div align="center">
     Figure 6
