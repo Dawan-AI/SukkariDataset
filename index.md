@@ -53,6 +53,31 @@ which could be one of the following:
   - Calibration files 
 
 the raw dataset structure is as follows: 
+{: .lh-0 }
+```
+┌─ ...
+├─ (main label files)
+├─ Label
+    ├─ ...
+    ├─ (run files)
+    ├─ run_x
+        ├─ Segmentation_Data
+            ├─...
+            ├─ID_RGB.png
+            ├─ID_NIR900.png 
+            ├─ID_NIR970.png 
+            ├─ID_Mask.png
+            └─...
+        └─ Meta Data
+            ├─...
+            ├─ Weight.xlsx
+            ├─ Images.xlsx 
+            ├─ Notes.txt
+            └─ Calibration files
+    └─ (other run files)
+└─(other label files)
+```
+
 - Label:
   - run_x:
     - Segmentation_Data: 
