@@ -12,13 +12,13 @@ nav_order: 1
 
   
 ## Overview of the Sukkari Dataset
-We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards.
+We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards. This dataset can be used for research, machine learning models, or data analysis tasks related to agriculture, food classification, or image recognition.
 This dataset comprises 14,000 images, each sorted into one of five categories, as detailed in [Data Collection]({{site.baseurl}}/data_collection). 
-We chose Sukkari dates because of the complexity of their grading criteria and their widespread availability.
 To enhance productivity, we developed a system that automates the data collection process, which is explained in [How We Collected the Data]({{site.baseurl}}/data_collection_setup).
-The long-term goal of this project is to commercialize a compact, low-cost machine that automates the sorting and classification of date fruits for small and medium-sized farmers. We also elaborate on [our efforts]({{site.baseurl}}/contributions) to achieve this objective using the current dataset.
+We also mention [how this dataset can contribute]({{site.baseurl}}/contributions) to the date palm industry and our efforts to build a sorting machine using the current dataset.
+The long-term goal of this project is to commercialize a compact, low-cost machine that automates the sorting and classification of date fruits for small and medium-sized farmers.
 
-This dataset can be used for research, machine learning models, or data analysis tasks related to agriculture, food classification, or image recognition.
+
 
 ## Overview
 We chose Sukkari dates because of the complexity of their grading
