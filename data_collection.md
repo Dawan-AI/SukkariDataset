@@ -63,7 +63,7 @@ cleaning process was implemented to ensure the quality and relevance of
 the dataset for classification purposes. The cleaning steps included:
 
 -   **Image Cropping:** Each date image was cropped into a
-    $500\times 500$ pixel image with the date in the center. This was
+    500 x 500 pixel image with the date in the center. This was
     automated using the date segmentation masks saved while collecting
     the data. This step ensured that the focus remained on the date,
     reducing the data needed for memory. 
