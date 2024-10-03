@@ -11,7 +11,7 @@ nav_order: 1
 - [Installation](#installation)
 
   
-## Overview of the Sukkari Dataset
+## Overview
 We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards. This dataset can be used for research, machine learning models, or data analysis tasks related to agriculture, food classification, or image recognition.
 This dataset comprises 14,000 images, each sorted into one of five categories, as detailed in [Data Collection]({{site.baseurl}}/data_collection). 
 To enhance productivity, we developed a system that automates the data collection process, which is explained in [How We Collected the Data]({{site.baseurl}}/data_collection_setup).
