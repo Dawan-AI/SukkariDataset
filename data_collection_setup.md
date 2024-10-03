@@ -13,6 +13,10 @@ images of dates through an efficient and automated process. The system
 consisted of 3 main components - the mechanical system, the imaging
 station and the software.
 
+<div align="center">
+    Test Centering text
+</div>
+    
 ## Mechanical System
 
 The mechanical system simplified the image collection of large
