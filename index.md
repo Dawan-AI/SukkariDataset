@@ -49,7 +49,7 @@ which could be one of the following:
   - Calibration files 
 
 the raw dataset structure is as follows: 
-{: .lh-0 }
+
 ```
 ┌─ ...
 ├─ (main label files)
