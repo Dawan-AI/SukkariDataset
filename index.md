@@ -117,6 +117,3 @@ which contains all the collected runs, and clean_dataset.zip, a zipped folder th
 along with their labels
 
 -  [Dataset link](https://1drv.ms/f/s!Ajkda3liMT8ykeAPrZTHnwKp13D2JQ?e=R8YOhs)
-
-
-## License 
