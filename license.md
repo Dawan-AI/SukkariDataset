@@ -1,5 +1,5 @@
 ---
-title: Contributions
+title: License
 layout: default
 nav_order: 8
 ---
