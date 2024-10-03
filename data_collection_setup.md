@@ -24,7 +24,7 @@ one. Afterwards, the dates moved inside the imaging station, where their
 images were captured.
 
 <p align="center">
-    <img src=assets/images/Mechanical_System.png width="700" text="Mechanical System">
+    <img src="assets/images/Mechanical_System.png" width="700" text="Mechanical System">
 </p>
 <div align="center">
     Figure 1
@@ -57,7 +57,7 @@ ThinkPad, Intel i7, 16GB RAM) via USB, which also provided power to the
 cameras.
 
 <p align="center">
-    <img src=assets/images/blackfly_camera.jpg width="400", text=Blackfly RGB Camera>
+    <img src="assets/images/blackfly_camera.jpg" width="400", text=Blackfly RGB Camera>
 </p>
 <div align="center">
     Figure 2
@@ -65,7 +65,7 @@ cameras.
 <br/><br/>
 
 <p align="center">
-    <img src=assets/images/grasshopper_camera.jpg width="400", text=Grasshopper NIR Camera>
+    <img src="assets/images/grasshopper_camera.jpg" width="400", text=Grasshopper NIR Camera>
 </p>
 <div align="center">
     Figure 3
@@ -88,7 +88,7 @@ well-maintained, and open source. Following is a brief overview of the
 main components designed to achieve this goal:
 
 <p align="center">
-    <img src=assets/images/software_components.png width="800", text=Grasshopper NIR Camera>
+    <img src="assets/images/software_components.png" width="800", text=Grasshopper NIR Camera>
 </p>
 <div align="center">
     Figure 4
