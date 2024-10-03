@@ -74,20 +74,6 @@ the raw dataset structure is as follows:
 └─(other label files)
 ```
 
-- Label:
-  - run_x:
-    - Segmentation_Data: 
-      - ID_RGB.png 
-      - ID_NIR900.png 
-      - ID_NIR970.png 
-      - ID_Mask.png 
-    - Meta Data 
-      - Weight.xlsx 
-      - Images.xlsx 
-      - Calibration files
-      - Notes.txt: 
-        - Example: {Label:Galaxy, Date of Collection : %Y-%m-%d %H:%M, Motor 1 Speed: X, Motor 2 Speed: X}
-
 ### Clean Dataset:
 The clean dataset consist of date images that have been cleaned and preprocessed. 
 The date images are ready to be consumed by different AI models and ready for training. 
