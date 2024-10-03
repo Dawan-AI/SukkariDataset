@@ -72,14 +72,15 @@ the dataset for classification purposes. The cleaning steps included:
   <img src="assets/images/bgrimg_0014_box.png" width="150" text="Qisher">
   <img src="assets/images/CR_DateImage_bgrimg_0014.png" width="150" text="Rutab">
   <img src="assets/images/WB_DateImage_bgrimg_0014.png" width="150" text="Galaxy">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </p>
+<div align="center">
+    Figure 5
+</div>
+<br/><br/>
 
 -   **Brightness Balancing:** To maintain consistency across the
     dataset, we applied brightness balancing to the cropped images, as
-    shown in Figure
-    [\[fig:cropping\]](#fig:cropping){reference-type="ref"
-    reference="fig:cropping"}(d). This adjustment helped reduce the
+    shown in the last 2 images of Figure 5. This adjustment helped reduce the
     variance caused by different lighting conditions during image
     capture, ensuring uniformity in image quality.
     
@@ -94,20 +95,13 @@ the dataset for classification purposes. The cleaning steps included:
     irrelevant data. This included partially visible dates, images
     consisting mostly of shadows, images of date skins, and any other
     non-date objects that were inadvertently captured during
-    segmentation, as shown in Figure
-    [\[fig:cleaning\]](#fig:cleaning){reference-type="ref"
-    reference="fig:cleaning"}.
-
-
+    segmentation, as shown in Figure 6.
 
 -   **Nagad Subcategorization:** Within the Nagad category, additional
     subcategories were created to identify subtle differences among
-    Nagad types, shown in Figure
-    [\[fig:nagad\]](#fig:nagad){reference-type="ref"
-    reference="fig:nagad"}. This involved classifying very dry, very
+    Nagad types, shown in Figure 7. This involved classifying very dry, very
     small, unripe, and bitten dates, thereby improving the dataset's
     granularity and accuracy for subsequent classification tasks.
-
 
 
 <p align="center">
@@ -116,13 +110,19 @@ the dataset for classification purposes. The cleaning steps included:
   <img src="assets/images/clean_3.png" width="150" text="Rutab">
   <img src="assets/images/clean_4.png" width="150" text="Galaxy">
   <img src="assets/images/clean_5.png" width="150" text="Nagad">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
 </p>
+<div align="center">
+    Figure 6
+</div>
+<br/><br/>
 
 <p align="center">
-  <img src="assets/images/nagad_bitten.png" width="150" text="Mufattal">
-  <img src="assets/images/nagad_2.png" width="150" text="Qisher">
-  <img src="assets/images/nagad_notripe.png" width="150" text="Rutab">
-  <img src="assets/images/nagad_small.png" width="150" text="Galaxy">
-    <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+  <img src="assets/images/nagad_bitten.png" width="150" text="">
+  <img src="assets/images/nagad_2.png" width="150" text="">
+  <img src="assets/images/nagad_notripe.png" width="150" text="">
+  <img src="assets/images/nagad_small.png" width="150" text="">
 </p>
+<div align="center">
+    Figure 7
+</div>
+<br/><br/>
