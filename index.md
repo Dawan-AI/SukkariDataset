@@ -19,12 +19,6 @@ We also mention [how this dataset can contribute]({{site.baseurl}}/contributions
 The long-term goal of this project is to commercialize a compact, low-cost machine that automates the sorting and classification of date fruits for small and medium-sized farmers.
 
 
-
-## Overview
-We chose Sukkari dates because of the complexity of their grading
-criteria and their widespread availability. This dataset comprises 14,000 images, each sorted
-into one of five categories.
-
 ## Dataset Structure
 
 The dataset is organized as follows:
