@@ -6,16 +6,11 @@ nav_order: 2
 
 # Data Collection Setup
 
-A data collection system, shown in Figure
-[1][Mechanical system],
+A data collection system, shown in Figure 1,
 was designed and manufactured to ensure the capture of high-quality
 images of dates through an efficient and automated process. The system
 consisted of 3 main components - the mechanical system, the imaging
 station and the software.
-
-<div align="center">
-    Test Centering text
-</div>
     
 ## Mechanical System
 
@@ -28,8 +23,12 @@ continuous flow of dates to the imaging station. Then an infrared sensor
 one. Afterwards, the dates moved inside the imaging station, where their
 images were captured.
 
-![Mechanical system](assets/images/Mechanical_System.png){#fig:mech_system
-width="0.5\\linewidth"}
+<p align="center">
+    <img src=assets/images/Mechanical_System.png width="700" text="Mechanical System">
+</p>
+<div align="center">
+    Figure 1
+</div>
 
 ## Imaging Station
 
@@ -43,29 +42,35 @@ and properly lit images. Halogen lamps were needed since they emit light
 across a wide spectrum, including both visible and infrared wavelengths,
 making them particularly useful for capturing NIR images. The system was
 enclosed using white sheets to ensure an optimal light distribution, as
-shown in Figure [1](#fig:mech_system){reference-type="ref"
-reference="fig:mech_system"}.
+shown in Figure 1.
 
 #### Camera Setup
 
 The camera system incorporated multiple cameras that captured data
 across different spectral ranges. An RGB camera (FLIR Blackfly
-BFS-U3-31S4C-C), shown in Figure
-[\[fig:cameras\]](#fig:cameras){reference-type="ref"
-reference="fig:cameras"} (a), was used to capture color data in the
+BFS-U3-31S4C-C), shown in Figure 2 was used to capture color data in the
 visible spectrum. Additionally, two NIR cameras (FLIR Grasshopper
-GS3-U3-41C6NIR-C), shown in Figure
-[\[fig:cameras\]](#fig:cameras){reference-type="ref"
-reference="fig:cameras"} (b), were used to capture images in the 900 nm
+GS3-U3-41C6NIR-C), shown in Figure 3 were used to capture images in the 900 nm
 and 970 nm band. A corresponding optical bandpass filter was used for
-each camera. More details on the choice of these wavelengths will be
-given in Section 4.??. All cameras were connected to a laptop (Lenovo
+each camera. All cameras were connected to a laptop (Lenovo
 ThinkPad, Intel i7, 16GB RAM) via USB, which also provided power to the
 cameras.
 
-![](assets/images/blackfly_camera.jpg){width="\\textwidth"}
+<p align="center">
+    <img src=assets/images/blackfly_camera.jpg width="400", text=Blackfly RGB Camera>
+</p>
+<div align="center">
+    Figure 2
+</div>
+<br/><br/>
 
-![](assets/images/grasshopper_camera.jpg){width="\\textwidth"}
+<p align="center">
+    <img src=assets/images/grasshopper_camera.jpg width="400", text=Grasshopper NIR Camera>
+</p>
+<div align="center">
+    Figure 3
+</div>
+<br/><br/>
 
 Note that the cameras discussed above are equipped with global shutters.
 This feature is essential to reduce motion blur and produce sharp and
@@ -77,15 +82,18 @@ high-quality image.
 
 The software is designed to simplify the processes of capturing,
 collecting, and synchronizing data from various sensors, making sure
-that all data is accurately time-stamped. Figure
-[2](#fig:software_components){reference-type="ref"
-reference="fig:software_components"} illustrates the entire process. All
+that all data is accurately time-stamped. Figure 4 illustrates the entire process. All
 of our software is developed using libraries that are easily accessible,
 well-maintained, and open source. Following is a brief overview of the
 main components designed to achieve this goal:
 
-![Software components](assets/images/software_components.png){#fig:software_components
-width="0.5\\linewidth"}
+<p align="center">
+    <img src=assets/images/software_components.png width="800", text=Grasshopper NIR Camera>
+</p>
+<div align="center">
+    Figure 4
+</div>
+<br/><br/>
 
 -   **Image Grabber:** This module manages the control and retrieval of
     images from multiple cameras. To prevent lag in the application, we
