@@ -13,7 +13,7 @@ nav_order: 1
   
 ## Overview
 We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards. This dataset can be used for research, machine learning models, or data analysis tasks related to agriculture, food classification, or image recognition.
-This dataset comprises 14,000 images, each sorted into one of five categories, as detailed in [Data Collection]({{site.baseurl}}/data_collection). 
+This dataset comprises of around 14,000 RGB images, 900 nm NIR images, and 970 nm NIR images each, along with weight data for each date. All the dates were sorted into one of five categories, as detailed in [Data Collection]({{site.baseurl}}/data_collection). 
 To enhance productivity, we developed a system that automates the data collection process, which is explained in [How We Collected the Data]({{site.baseurl}}/data_collection_setup).
 We also mention [how this dataset can contribute]({{site.baseurl}}/contributions) to the date palm industry and our efforts to build a sorting machine using the current dataset.
 The long-term goal of this project is to commercialize a compact, low-cost machine that automates the sorting and classification of date fruits for small and medium-sized farmers.
@@ -21,10 +21,9 @@ The long-term goal of this project is to commercialize a compact, low-cost machi
 
 ## Dataset Structure
 
-The dataset is organized as follows:
+We share both the raw data for all the sensors and a postprocessed and cleaned dataset of the RGB images.
 
 ### Raw Dataset:
-
 
 The raw dataset contains all the data collected during our data collection runs,
 without any preprocessing or cleaning steps applied. Each folder in the dataset is divided into two subfolders: 
@@ -70,22 +69,28 @@ the raw dataset structure is as follows:
 
 ### Clean Dataset:
 The clean dataset consist of date images that have been cleaned and preprocessed. 
-The date images are ready to be consumed by different AI models and ready for training. 
-- train
-  - label
-    - label_001.jpg 
-    - label_002.jpg
-    - ...
-- val
-  - label
-    - label_001.jpg 
-    - label_002.jpg
-    - ...
-- test
-  - label
-    - label_001.jpg 
-    - label_002.jpg
-    - ...
+The date images are ready to be consumed by different AI models and ready for training.
+
+┌─ train
+    ├─ (labels)
+        ├─ label_001.jpg
+        ├─ label_002.jpg
+        └─ ...
+    └─ ...
+├─ val
+    ├─ (labels)
+        ├─ label_001.jpg
+        ├─ label_002.jpg
+        └─ ...
+    └─ ...
+└─ test
+    ├─ (labels)
+        ├─ label_001.jpg
+        ├─ label_002.jpg
+        └─ ...
+    └─ ...
+```
+
 
 ## Installation
 The dataset is hosted on OneDrive and is publicly accessible. It consists of two main folders: raw_dataset, 
