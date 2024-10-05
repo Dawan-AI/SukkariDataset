@@ -71,6 +71,7 @@ the raw dataset structure is as follows:
 The clean dataset consist of date images that have been cleaned and preprocessed. 
 The date images are ready to be consumed by different AI models and ready for training.
 
+```
 ┌─ train
     ├─ (labels)
         ├─ label_001.jpg
