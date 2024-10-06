@@ -131,6 +131,4 @@ processing area. This masked RGB image is processed with OpenCV's
 implementation of KNN background subtraction, which builds a background
 model and detects moving objects in the frames. As a date passes by the
 IR sensor, the system records its weight, the date mask, and the raw
-images from the RGB, 900 nm, and 970 nm cameras. This data is stored in
-a folder named following the format: Label-date of capture belt 1 speed
-belt 2 speed.
+images from the RGB, 900 nm, and 970 nm cameras. This data is then stored following the format as detailed in raw dataset structure
