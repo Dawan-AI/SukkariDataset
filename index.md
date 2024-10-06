@@ -12,7 +12,7 @@ nav_order: 1
 
   
 ## Overview
-We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards. This dataset can be used for research, machine learning models, or data analysis tasks related to agriculture, food classification, or image recognition.
+We present our ongoing efforts to construct an open-source dataset of **Sukkari dates**, a widespread variety of dates from Saudi Arabia, that are sorted and graded according to market standards. This dataset is suitable for research purposes, developing machine learning models, and performing data analysis tasks focused on agriculture, food classification, or image recognition.
 This dataset comprises of around 14,000 RGB images, 900 nm NIR images, and 970 nm NIR images each, along with weight data for each date. All the dates were sorted into one of five categories, as detailed in [Data Collection]({{site.baseurl}}/data_collection). 
 To enhance productivity, we developed a system that automates the data collection process, which is explained in [How We Collected the Data]({{site.baseurl}}/data_collection_setup).
 We also mention [how this dataset can contribute]({{site.baseurl}}/contributions) to the date palm industry and our efforts to build a sorting machine using the current dataset.
@@ -39,7 +39,8 @@ which could be one of the following:
 - The metadata folder contains additional information, including:
   - Weight data
   - Frame numbers
-  - Calibration files 
+  - Calibration files
+    - This includes RGB, NIR900, and NIR970 images of a "calibration board" captured prior to the start of the run.
 
 the raw dataset structure is as follows: 
 
