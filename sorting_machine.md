@@ -52,7 +52,14 @@ the dates, minimizing bruising or breakage, which are common issues in
 mechanical processing. In addition, the machine should be robust enough
 to handle hot temperatures and comply with food safety regulations.
 
-The mechanical system has been fully developed along with the control
-systems, and we are currently testing its reliability. The software
+This new mechanical system has been fully developed along with the control
+system. Also, we are currently testing its reliability. The software
 models will be integrated to give us a complete industrial solution that
-is ready for commercialization.
+is ready for commercialization. Some images of the CAD model and the physical build of the machine are shown below.
+<p align="center">
+  <img src="assets/images/Current_Machine_Cad.png" width="500" text="Mechanical System">
+</p>
+<p align="center">
+  <img src="assets/images/Current_Machine.jpg" width="500" text="Mechanical System">
+</p>
+
